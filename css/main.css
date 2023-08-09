@@ -43,8 +43,6 @@ footer, header, hgroup, menu, nav, section {
   .nav-item {
     flex: 1;
     text-align: center;
-    padding: 40px 0;
-    color: #000;
   }
 
  .navbar{
@@ -65,6 +63,7 @@ footer, header, hgroup, menu, nav, section {
     color: #E86BBB !important;
     display: flex;
     justify-content: center;
+    font-family: 'Pacifico', cursive;
   }
 
   footer{
@@ -83,19 +82,20 @@ footer, header, hgroup, menu, nav, section {
     text-align: center;
   }
 
-  footer ul li a{
-    text-decoration: none;
-    color: white;
-  }
-
-  footer .col-2 a{
-    text-decoration: none;
-    color: white;
-  }
   
-  footer .col-2{
+  
+  footer .col-lg-6{
     display: flex;
     justify-content: space-between;
     width: 15%;
   }
 
+  :root{
+    --textfont:times;
+
+}
+
+p{
+    font-family: var(--textfont);
+   
+}
