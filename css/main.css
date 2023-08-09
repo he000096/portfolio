@@ -27,27 +27,24 @@ footer, header, hgroup, menu, nav, section {
 
 
 
-.navbar-brand{
+header .navbar-brand{
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
   }
 
-  .navbar-nav {
+  header .navbar-nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
   
-  .nav-item {
+  header .nav-item {
     flex: 1;
     text-align: center;
   }
 
- .navbar{
-    background-color: white;
- }
   .bzd {
     background-image: url('../images/ren.png');
     background-position: 55% 55%;
@@ -66,29 +63,6 @@ footer, header, hgroup, menu, nav, section {
     font-family: 'Pacifico', cursive;
   }
 
-  footer{
-    background-color: black;
-    color: white;
-    padding-top: 30px;
-  }
-
-  footer ul{
-    list-style: none;
-    display: flex;
-  }
-
-  footer ul li{
-    flex: 1;
-    text-align: center;
-  }
-
-  
-  
-  footer .col-lg-6{
-    display: flex;
-    justify-content: space-between;
-    width: 15%;
-  }
 
   :root{
     --textfont:times;
